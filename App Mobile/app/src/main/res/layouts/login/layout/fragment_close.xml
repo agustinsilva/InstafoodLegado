@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/lbl_close_may_pay"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/lbl_close_may_pay"/>
+
+    <RelativeLayout
+        android:id="@+id/lay_relative_cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_close_may_pay"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/lay_linear_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_cash"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cash_vector"/>
+
+            <TextView
+                android:text="$ 0"
+                android:textSize="40sp"
+                android:textColor="@color/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/lbl_close_amount"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:text="@string/lbl_order_please_score"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/lay_relative_stars"
+        android:id="@+id/aPopUp"/>
+
+    <RelativeLayout
+        android:id="@+id/lay_relative_stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_above="@+id/lbl_close_score_description">
+
+        <LinearLayout
+            android:id="@+id/lay_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_grey_star_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star"
+                android:contentDescription="1"/>
+
+            <ImageView
+                android:id="@+id/img_grey_star_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star"
+                android:contentDescription="2"/>
+
+            <ImageView
+                android:id="@+id/img_grey_star_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star"
+                android:contentDescription="3"/>
+
+            <ImageView
+                android:id="@+id/img_grey_star_4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star"
+                android:contentDescription="4"/>
+
+            <ImageView
+                android:id="@+id/img_grey_star_5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star"
+                android:contentDescription="5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_light_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_gold_star_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_star_gold"
+                android:visibility="invisible"
+                android:contentDescription="1"/>
+
+            <ImageView
+                android:id="@+id/img_gold_star_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                android:src="@drawable/ic_star_gold"
+                android:contentDescription="2"/>
+
+            <ImageView
+                android:id="@+id/img_gold_star_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                android:src="@drawable/ic_star_gold"
+                android:contentDescription="3"/>
+
+            <ImageView
+                android:id="@+id/img_gold_star_4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                android:src="@drawable/ic_star_gold"
+                android:contentDescription="4"/>
+
+            <ImageView
+                android:id="@+id/img_gold_star_5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="invisible"
+                android:src="@drawable/ic_star_gold"
+                android:contentDescription="5"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lbl_close_score_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_close_score"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn_close_score"
+        style="@style/CloseButton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="Puntuar" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">InstaFood</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_check">Pedido</string>
+    <string name="title_order">Orden</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buscar_restaurantes">Área de busqueda: Menos de 1000 metros</string>
+    <string name="boton_buscar_restaurant">Buscar restaurante</string>
+    <string name="instafoodTitle">InstaFood</string>
+
+    <!-- order-fragment -->
+    <string name="lbl_order_title">En mesa</string>
+    <string name="lbl_order_will_arrive_in">Llegará en</string>
+    <string name="lbl_order_last_order"><u><b><i>ÚLTIMO PEDIDO</i></b></u></string>
+    <string name="lbl_order_accumulated">Acumulado</string>
+    <string name="lbl_order_detail">Detalle</string>
+    <string name="btn_order_add">Agregar pedido</string>
+    <string name="btn_order_waiter">LLamar al mesero</string>
+    <string name="btn_order_close">Cerrar Mesa</string>
+    <string name="lbl_order_please_score">¿Qué te pareció este lugar?</string>
+    <string name="lbl_order_score_1">No me gustó en absoluto</string>
+    <string name="lbl_order_score_2">No me gustó</string>
+    <string name="lbl_order_score_3">Está bien</string>
+    <string name="lbl_order_score_4">Me gustó</string>
+    <string name="lbl_order_score_5">Me encantó</string>
+    <string name="lbl_order_popup_question">¿De verdad deseas cerrar la mesa?</string>
+    <string name="lbl_order_yes">Si</string>
+    <string name="lbl_close_may_pay">Ya podés abonar</string>
+
+    <!-- check-fragment -->
+    <string name="confirmation">Confirmar</string>
+
+</resources>
